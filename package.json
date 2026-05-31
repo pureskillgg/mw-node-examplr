@@ -1,5 +1,5 @@
 {
-  "name": "@meltwater/examplr",
+  "name": "@pureskillgg/examplr",
   "version": "7.0.0",
   "description": "Example runner for Node.js packages.",
   "type": "module",
@@ -12,15 +12,16 @@
   "sideEffects": false,
   "keywords": [
     "meltwater",
+    "pureskillgg",
     "node"
   ],
-  "homepage": "https://github.com/meltwater/node-examplr",
-  "bugs": "https://github.com/meltwater/node-examplr/issues",
-  "repository": "meltwater/node-examplr",
+  "homepage": "https://github.com/pureskillgg/node-examplr",
+  "bugs": "https://github.com/pureskillgg/node-examplr/issues",
+  "repository": "pureskillgg/node-examplr",
   "license": "MIT",
   "author": {
     "name": "Evan Sosenko",
-    "email": "evan.sosenko@meltwater.com"
+    "email": "evan@pureskillgg.com"
   },
   "files": [
     "yarn.lock",

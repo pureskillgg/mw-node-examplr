@@ -1,7 +1,7 @@
 import path from 'path'
 
 // If using in a real project, replace the line below with
-// import { createExamples } from '@meltwater/examplr'
+// import { createExamples } from '@pureskillgg/examplr'
 import { createExamples } from '../index.js'
 
 import adventure from './adventure.js'
