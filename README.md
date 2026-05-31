@@ -1,6 +1,6 @@
 # Examplr: Node.js Example Runner
 
-[![npm](https://img.shields.io/npm/v/@meltwater/examplr.svg)](https://www.npmjs.com/package/@meltwater/examplr)
+[![npm](https://img.shields.io/npm/v/@pureskillgg/examplr.svg)](https://www.npmjs.com/package/@pureskillgg/examplr)
 [![CircleCI](https://img.shields.io/circleci/project/github/meltwater/node-examplr/master.svg)](https://circleci.com/gh/meltwater/node-examplr)
 
 Because all packages should have an `examples` folder
@@ -59,13 +59,13 @@ $ yarn example adventure Jake 28
 Add this as a development dependency to your project using [npm] with
 
 ```
-$ npm install --dev @meltwater/examplr
+$ npm install --dev @pureskillgg/examplr
 ```
 
 or using [Yarn] with
 
 ```
-$ yarn add --save-dev @meltwater/examplr
+$ yarn add --save-dev @pureskillgg/examplr
 ```
 
 [npm]: https://www.npmjs.com/
@@ -85,7 +85,7 @@ Create an entry point for examples,
 
 import path from 'path'
 
-import { createExamples } from '@meltwater/examplr'
+import { createExamples } from '@pureskillgg/examplr'
 
 // Normally examples are imported from other files:
 // add this one here for demonstration.
@@ -223,7 +223,7 @@ instantiation function, e.g.,
 ```js
 import pino from 'pino'
 
-import { getPinoArgs } from '@meltwater/examplr'
+import { getPinoArgs } from '@pureskillgg/examplr'
 
 const args = getPinoArgs({
   outputMode: 'short',
