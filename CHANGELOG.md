@@ -5,6 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [7.1.1] / 2026-06-02
+
+### Changed
+
+- Use Yarn in the publish workflow.
+
+## [7.1.0] / 2026-06-02
+
+### Changed
+
+- Enhance the publish workflow with dependency installation
+  and an updated publish command.
+
+## [7.0.2] / 2026-05-31
+
+### Changed
+
+- Remove docs generation and fix Sentry versioning in the publish workflow.
+
+## [7.0.1] / 2026-05-31
+
+### Changed
+
+- Move package to the `@pureskillgg` namespace
+  (now published as `@pureskillgg/examplr`).
+- Replace CircleCI with GitHub Actions for main, version, and publish workflows.
+
 ## [7.0.0] / 2022-02-14
 
 ### Changed
@@ -197,7 +224,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 [bunyan-formatter]: https://www.npmjs.com/package/bunyan-formatter
 [Pino]: https://github.com/pinojs/pino
 
-[Unreleased]: https://github.com/meltwater/node-examplr/compare/v7.0.0...HEAD
+[Unreleased]: https://github.com/meltwater/node-examplr/compare/v7.1.1...HEAD
+[7.1.1]: https://github.com/meltwater/node-examplr/compare/v7.1.0...v7.1.1
+[7.1.0]: https://github.com/meltwater/node-examplr/compare/v7.0.2...v7.1.0
+[7.0.2]: https://github.com/meltwater/node-examplr/compare/v7.0.1...v7.0.2
+[7.0.1]: https://github.com/meltwater/node-examplr/compare/v7.0.0...v7.0.1
 [7.0.0]: https://github.com/meltwater/node-examplr/compare/v6.1.0...v7.0.0
 [6.1.0]: https://github.com/meltwater/node-examplr/compare/v6.0.0...v6.1.0
 [6.0.0]: https://github.com/meltwater/node-examplr/compare/v5.0.1...v6.0.0
