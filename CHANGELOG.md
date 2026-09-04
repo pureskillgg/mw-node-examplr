@@ -9,9 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- Harden the deploy workflows: pass the version input through `env:` instead of interpolating it into the shell line; give the dispatch and tag workflows readable run titles; give every job a timeout.
-
-- GitHub Actions updated to Node 24 runtimes: `actions/checkout` v5 to v7; `actions/setup-node` v5 to v6.
+- Harden the deploy workflows.
+- Update GitHub Actions to Node.js 24 runtimes.
 
 ## [7.1.1] / 2026-06-02
 
@@ -23,8 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- Enhance the publish workflow with dependency installation
-  and an updated publish command.
+- Enhance the publish workflow with dependency installation and an updated publish command.
 
 ## [7.0.2] / 2026-05-31
 
@@ -36,8 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- Move package to the `@pureskillgg` namespace
-  (now published as `@pureskillgg/examplr`).
+- Move package to the `@pureskillgg` namespace (now published as `@pureskillgg/examplr`).
 - Replace CircleCI with GitHub Actions for main, version, and publish workflows.
 
 ## [7.0.0] / 2022-02-14
